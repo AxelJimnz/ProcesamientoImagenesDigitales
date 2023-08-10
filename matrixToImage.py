@@ -1,6 +1,9 @@
+#"numpy" biblioteca de Python para generar matrices.
+#"PIL": Permite crear una imagen a partir de la matriz
 import numpy as np
 from PIL import Image
 
+#Impre matriz con numeros aleatorios entre 0 - 255
 def mostrar_matriz(matriz):
     for fila in matriz:
         print(" ".join(f"{valor:3}" for valor in fila))
